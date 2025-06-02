@@ -25,6 +25,8 @@ const area = ['BP', 'T', 'PP', 'B', 'P']
 
 area.push('Da')
 
+area.push('MyTask')
+
 onMounted(() => {
   resetPositionData()
 })
