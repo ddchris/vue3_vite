@@ -27,6 +27,7 @@ area.push('Da')
 area.push('Da1')
 area.push('Da2')
 area.push('PPP')
+area.push('Da3')
 
 onMounted(() => {
   resetPositionData()
