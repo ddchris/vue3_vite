@@ -23,17 +23,7 @@ setTimeout(() => {
 }, 1000)
 const area = ['BP', 'T', 'PP', 'B', 'P']
 
-interface CreateArrayFunc {
-  <T>(length: number, value: T): Array<T>
-}
-
-const createArray: CreateArrayFunc = function <T>(length: number, value: T): Array<T> {
-  const result: T[] = []
-  for (let i = 0; i < length; i++) {
-    result[i] = value
-  }
-  return result
-}
+area.push('Da')
 
 onMounted(() => {
   resetPositionData()
