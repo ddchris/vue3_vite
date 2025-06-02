@@ -24,6 +24,7 @@ setTimeout(() => {
 const area = ['BP', 'T', 'PP', 'B', 'P']
 
 area.push('Da')
+area.push('Da1')
 
 onMounted(() => {
   resetPositionData()
