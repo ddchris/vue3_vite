@@ -12,9 +12,9 @@ function update(name: string) {
 }
 import * as VirtualScroller from 'vue3-virtual-scroller'
 console.log(VirtualScroller)
-import { RecycleScroller, DynamicScroller, DynamicScrollerItem } from 'vue3-virtual-scroller'
+import { DynamicScroller } from 'vue3-virtual-scroller'
 import 'vue3-virtual-scroller/dist/vue3-virtual-scroller.css'
-const items = Array.from({ length: 1000 }, (_, i) => ({ id: i, name: `Item ${i}` }))
+const items = Array.from({ length: 5 }, (_, i) => ({ id: i, name: `Item ${i}` }))
 </script>
 
 <template>
